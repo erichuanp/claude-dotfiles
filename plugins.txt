@@ -1,0 +1,15 @@
+# Claude Code 插件清单（"requirements.txt"）。bootstrap 会逐行执行：
+#   marketplace <github-repo>   → claude plugin marketplace add <repo>
+#   plugin <name@marketplace>   → claude plugin install <name@marketplace> --scope user
+# 以 # 开头的行忽略。想精简就删对应行（ecc = affaan-m/everything-claude-code，
+# 200+ skill 的全家桶，上游改名频繁/体量大，不需要就删掉 ecc 两行）。
+
+marketplace anthropics/claude-plugins-official
+marketplace affaan-m/everything-claude-code
+marketplace HKUDS/CLI-Anything
+marketplace Lum1104/Understand-Anything
+
+plugin ecc@ecc
+plugin frontend-design@claude-plugins-official
+plugin cli-anything@cli-anything
+plugin understand-anything@understand-anything

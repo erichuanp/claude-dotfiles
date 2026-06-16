@@ -1,0 +1,6 @@
+# shell 脚本强制 LF，保证在 macOS/Linux 上可执行
+*.sh text eol=lf
+bootstrap.sh text eol=lf
+claude/skills/**/*.sh text eol=lf
+# PowerShell 用 CRLF
+*.ps1 text eol=crlf

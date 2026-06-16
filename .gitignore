@@ -1,0 +1,8 @@
+# 凭据 / 会话 / 缓存 / 机器本地状态 —— 绝不入库
+*.bak
+*.bak.*
+.credentials.json
+remote-mem/
+*.log
+.DS_Store
+trash/
