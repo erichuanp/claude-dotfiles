@@ -8,8 +8,10 @@ marketplace anthropics/claude-plugins-official
 marketplace affaan-m/everything-claude-code
 marketplace HKUDS/CLI-Anything
 marketplace Lum1104/Understand-Anything
+marketplace DietrichGebert/ponytail
 
 plugin ecc@ecc
 plugin frontend-design@claude-plugins-official
 plugin cli-anything@cli-anything
 plugin understand-anything@understand-anything
+plugin ponytail@ponytail
